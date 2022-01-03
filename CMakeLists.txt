@@ -12,7 +12,7 @@ list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/modules")
 
 set(SIGNAL_CLASSES_H \"${PROJECT_SOURCE_DIR}/app/menu_structure/menu_structure/inc/signal_classes.h\" )
 
-include(graphviz)
+# include(graphviz)
 include(FindExtPackages)
 
 # include(Fetch_platform_dependencies)
