@@ -1,1 +1,1 @@
-# menu_structure
+# menu_structure ![CI][]
