@@ -17,14 +17,9 @@ include(FindExtPackages)
 
 # include(Fetch_platform_dependencies)
 
-# add_subdirectory(cmake/external)
 add_subdirectory(app/menu_structure)
-# add_subdirectory(chsm/crf)
-
 
 message(STATUS "Using toolchain file: ${CMAKE_TOOLCHAIN_FILE}.")
-
-# message("__STDC_VERSION__: -> ${__STDC_VERSION__}")
 
 set(debug on)
 set(autodetect off)
