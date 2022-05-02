@@ -27,7 +27,7 @@ jobs:
       run: tree
 
     - name: Configure CMake 3
-      run: cmake -B ${{github.workspace}}/build ../
+      run: cmake -B ${{github.workspace}}/build ../../../
 
     - name: Build
       # Build your program with the given configuration
