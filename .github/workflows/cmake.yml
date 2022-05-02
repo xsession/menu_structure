@@ -22,6 +22,8 @@ jobs:
 
     - name: Configure CMake
 
+      run: cd ${{github.workspace}}/../../
+      run: tree
       run: cmake -B ${{github.workspace}}/build ../
 
     - name: Build
