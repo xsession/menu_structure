@@ -21,11 +21,9 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Configure CMake
-      run: cd ${{github.workspace}}/../../../
-    
-    - name: Configure CMake 2
-      run: tree
-
+      run: | 
+            cd ${{github.workspace}}/../../../
+            tree
    # - name: Configure CMake 3
    #   run: cmake -B ${{github.workspace}}/build ../
 
