@@ -27,7 +27,7 @@ jobs:
       run: tree ${{ github.workspace }}
       
     - name: Check cmake version
-      run: cmake --verssion
+      run: cmake --version
       
     - name: Configure CMake
       # Configure CMake in a 'build' subdirectory. `CMAKE_BUILD_TYPE` is only required if you are using a single-configuration generator such as make.
