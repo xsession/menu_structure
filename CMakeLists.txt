@@ -10,7 +10,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_utils/utils")
 list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_utils/modules")
 
-set(SIGNAL_CLASSES_H \"${PROJECT_SOURCE_DIR}/app/menu_structure/menu_structure/inc/signal_classes.h\" )
+# set(SIGNAL_CLASSES_H \"${PROJECT_SOURCE_DIR}/app/menu_structure/menu_structure/inc/signal_classes.h\" )
 
 # include(graphviz)
 include(FindExtPackages)
